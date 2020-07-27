@@ -1,92 +1,82 @@
-@media screen and (max-width){
-    max-width: 1920px;
-    max-width: 1440px;
-    max-width: 1068px;
+@media screen and (max-width) {
+  max-width: 1920px;
+  max-width: 1440px;
+  max-width: 1068px;
 }
 
-body{
-    
-    text-align: center;
-    font-family: 'Epilogue', sans-serif;
-    background-color: grey;
-
+body {
+  text-align: center;
+  font-family: "Epilogue", sans-serif;
+  background-color: grey;
 }
-.card-container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    background-color:#0097A7;
-    
-    
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: #0097a7;
 }
-.cards{
-   
-   background-color:white;
-    width: 27%;
-    padding: 0px;
-    margin: 15px;
-    text-align: center; 
-    webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    border: 4px #FF5722 solid;
-
+.cards {
+  background-color: white;
+  width: 27%;
+  padding: 0px;
+  margin: 15px;
+  text-align: center;
+  webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border: 4px #ff5722 solid;
 }
-.product-header{
-    border: lightblue solid 1px;
-    text-align: center;
-    font-size: xx-large;
-    margin: 10px
+.product-header {
+  border: lightblue solid 1px;
+  text-align: center;
+  font-size: xx-large;
+  margin: 10px;
 }
-.product-image{
-    width: 95%;
-    height: 100%;
-    border: #B2EBF2 solid 3px;
-    max-width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    
+.product-image {
+  width: 95%;
+  height: 100%;
+  border: #b2ebf2 solid 3px;
+  max-width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
 }
-.product-description{
-    text-align: left;
-    height: 8em;
+.product-description {
+  text-align: left;
+  height: 8em;
 }
-.product-availability{
-    background-color: lightslategrey;
-    color: rgb(221, 221, 105);
-    margin-bottom: 10px;
-    padding: 0;
+.product-availability {
+  background-color: lightslategrey;
+  color: rgb(221, 221, 105);
+  margin-bottom: 10px;
+  padding: 0;
 }
-.product-specifications-header{
-    font-size: x-large;
+.product-specifications-header {
+  font-size: x-large;
 }
-.footer{
-    font-size: x-small;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.footer {
+  font-size: x-small;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-
-
-.bold{
-    font-weight: bolder;
-    font-size: 1.6em;
+.bold {
+  font-weight: bolder;
+  font-size: 1.6em;
 }
-.pricing{
-    margin-top: 40px;
+.pricing {
+  margin-top: 40px;
 }
 /* Sold out */
-.sold-out{
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    
+.sold-out {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
 }
 
-.sold-out-div{
-    position: relative;
-    top: 0;
-    left: 0;
+.sold-out-div {
+  position: relative;
+  top: 0;
+  left: 0;
 }
